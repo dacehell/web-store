@@ -1,22 +1,31 @@
 <template>
   <v-app-bar
-    app
-    flat
+    absolute
+    dark
+    shrink-on-scroll
+    src="../assets/hero.jpg"
+    scroll-target="#scrolling-techniques-2"
   >
+    <template v-slot:img="{ props }">
+        <v-img
+          v-bind="props"
+          gradient="to right,#E2231A 38%, rgba(238,146,33,0.48)"
+        ></v-img>
+      </template>
     <v-app-bar-nav-icon
       class="hidden-md-and-up"
       @click="toggleDrawer"
     />
 
-    <v-container class="mx-auto py-0">
+    <v-container style="height: 1000px;">
       <v-row align="center">
         <v-img
           :src="require('@/assets/logo.png')"
           class="mr-5"
           contain
-          height="48"
-          width="48"
-          max-width="48"
+          height="100"
+          width="100"
+          max-width="100"
           @click="$vuetify.goTo(0)"
         />
 
@@ -43,6 +52,7 @@
       </v-row>
     </v-container>
   </v-app-bar>
+  
 </template>
 
 <script>

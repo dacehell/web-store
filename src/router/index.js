@@ -21,7 +21,7 @@ Vue.use(VueRouter)
     path: '/notfound',
     name: 'NotFound',
     component: () => import(/* webpackChunkName: "NotFound" */ '../views/NotFound.vue')
-  }
+  },
 ]
 
 const router = new VueRouter({

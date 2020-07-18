@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Moroccan Days",
+    "author": "John L",
+    "category": "About us",
+    "hero": "moroccandays.jpg"
+  },
+  {
+    "title": "Swedish Fishing",
+    "author": "Rachel L",
+    "category": "Products",
+    "hero": "autumnclouds.jpg"
+  },
+  {
+    "title": "The Adventure Begins",
+    "hero": "snowcup.jpg",
+    "prominent": true
+  },
+  {
+    "title": "Youthful Independence",
+    "author": "Rachel L",
+    "category": "Galery",
+    "hero": "july4.jpg"
+  },
+  {
+    "title": "Trial By Fire",
+    "author": "Anthony R",
+    "category": "Contact",
+    "hero": "firepots.jpg"
+  }
+]
+  
